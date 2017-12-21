@@ -1,7 +1,6 @@
-/*
 .watch-face {
-  height: 50%;
-  left: 50%;
+  height: 125px;
+  width: 125px;
   animation: pulse 4s cubic-bezier(0.5, 0, 0.5, 1) alternate;
   animation-iteration-count: 2;
 }
@@ -13,7 +12,7 @@
   position: absolute;
   mix-blend-mode: screen;
   transform: translate(0, 0);
-  animation: center 6s alternate;
+  animation: center 6s;
   animation-iteration-count: 2;
 }
 
@@ -117,46 +116,15 @@
     transform: translate(35px, -50px);
   }
 }
-*/
-/* Background Design */
 
-.whole {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  font-size: 0;
-  overflow-x: hidden;
-  overflow-y: auto;
-  -webkit-scroll-snap-type: mandatory;
-  scroll-snap-type: mandatory;
-  -webkit-scroll-snap-points-y: repeat(100vh);
-  scroll-snap-points-y: repeat(100vh);
+.circle-center {
+  position: absolute;
+  left:50%;
+  top:50%;
+  margin:-62.5px;
 }
 
-.slide {
-  width: 100%;
-  height: 100%;
-  line-height: 100vh;
-  text-align: center;
-}
-  i{
-    color: #DCE1DE;
-    vertical-align: middle;
-    font-size: 50vh;
-}
-
-.one{
-  background: #fffdfd;
-}
-.two{
-  background: #f9bfc1;
-}
-.three{
-  background: #c9e8dd;
-}
-.four{
-  background: #bebebe;
-}
-.five{
-  background: #2b2b28;
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
+h1 {
+  font-family: 'Julius Sans One', sans-serif;
 }
