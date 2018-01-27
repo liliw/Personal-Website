@@ -1,0 +1,113 @@
+<div class="row" id="project-page">
+  <div class="mat-app-background basic-container">
+
+    <div class="col-md-2 col-xs-3 col-sm-2">
+      <h1 class="category">Project</h1>
+    </div>
+
+    <div class="col-md-7 col-xs-8 col-sm-9 col-md-offset-1 col-xs-offset-1 col-sm-offset-1">
+      <div class="project-category">
+        <h1>Data Analysis Project</h1>
+        <div class="project">
+          <h2>Predicting the Outcome of NBA in Python</h2>
+          <a><span class="glyphicon glyphicon-paperclip"></span></a>
+          <p>
+            <span class="glyphicon glyphicon-wrench"></span> Tool: The Jupyter Notebook, Python 3, scikit-learn, numpy, AWS glyphicon
+            <br>
+            &emsp;This project was built on Jupyter Notebook with Python 3, scikit-learn, and numpy, with 60.6% accuracy. The dataset was fetched from
+            NBA official website via network packets. Applying with decision tree, 80% of dataset was used as training dataset; 20% dataset was used as test dataset.
+            Before starting predicting, the pre-process included generating missing data by the column's mean value, and converting team names
+            from string into integer by LabelEncoder.In the decision tree, there are four decision nodes:<br>
+              <span class="glyphicon glyphicon-ok-sign"></span> <em>Which team has higher ranking.</em><br>
+                  &emsp;&emsp;- It is a general view.<br>
+              <span class="glyphicon glyphicon-ok-sign"></span> <em>Which team is home team </em><br>
+                  &emsp;&emsp;- Home team usually has more advantages: crowd noise, comfort of being at home, etc.<br>
+              <span class="glyphicon glyphicon-ok-sign"></span> <em>Which team won their last match game. </em><br>
+                  &emsp;&emsp;- They may have strategies which can against another team. <br>
+            &emsp; My next step is implementing a random forest which can improve the prediction accuracy.
+          </p>
+        </div>
+        <div class="project">
+          <h2>Travel Guides Search Engine</h2>
+          <a><span class="glyphicon glyphicon-paperclip"></span></a>
+          <p>
+            <span class="glyphicon glyphicon-wrench"></span> Tool: C/C++, PHP, SQL, TF-IDF, Cosine Similarity, Inverted Index, Information Retrieval
+            <br>
+            &emsp; It was a search engine which provided international visitors travel information of Taiwan. We wrote a PHP web crawler to collect travel information from
+            Taiwan Tourism Bureau and a Taiwanese forum, and stored dataset as simple text. With a API which parses Mandarin sentences into elementary words, the elementary words
+            were converted into SCV format. <br>
+            &emsp; The weights of words/information were given by TF-IDF, and Cosine Similarity. User can retrieve travel information from the huge dataset which
+            is stored in our server. However, the calculation speed is terrible due to huge data. To improve the efficiency, we implemented Inverted Index to significantly
+            improve the search process.
+          </p>
+        </div>
+        <div class="project">
+          <h2>Data Analysis in R</h2>
+          <a><span class="glyphicon glyphicon-paperclip"></span></a>
+          <p>
+            <span class="glyphicon glyphicon-wrench"></span> Tool: R. RStudio
+            <br>
+            &emsp;I read cases and applying proper statistical models to analyze data in R. In the practices, I put my effort on learning how to interpret scatterplots and finding relations
+            between attributes. Critical thinking is one of the important skills when a data analyst is trying to explain those parameters. For example,
+            when I tried to use a multiple linear regression model to find out the relation which hides under a huge table, I need to explain why these two data contribute to
+            this result. <br>
+            <img src="../assets/matrix.png" class="matrixScatterplot" alt="Matrix of scatter-plots">
+          </p>
+        </div>
+      </div>
+      <div class="project-category">
+        <h1>Software Development Project</h1>
+        <div class="project">
+          <h2>Tutor Registration Web App</h2>
+          <a><span class="glyphicon glyphicon-paperclip"></span></a>
+          <p>
+            <span class="glyphicon glyphicon-wrench"></span> Tool: Angular 4, CSS, HTML, MangoDB, Git
+            <br>
+            &emsp;The project was designed to eliminate the sole dependency on professor and teaching assistant for course work help. We used Springboot framework for backend,
+            MangoDB(no-sql) to build users' class schedules, toturing subjects, toturing review, and toturs' profiles and Angular 4 for for front-end design.
+            I was responsible for UX, and responsive front-end design using Angular 4, HTML5 and bootsrap 3. <br>
+            &emsp; We employed agile methodology for the project implementation. The course project duration was fixed for 70 days, as a team we decided to have 4 sprint cycles,
+            and weekly srcum meeting. I played the role of a scrum master in 2nd sprint cycle and as a product owner in last cycle. This decision was made collectively, we as team belived
+            that front-end design is what we will be looked on when we were releasing the product for the class. Since I played a major role in designing front-end, I was given this opportunity.
+
+          </p>
+        </div>
+        <div class="project">
+          <h2>LISP Interpreter in C/C++</h2>
+          <a><span class="glyphicon glyphicon-paperclip"></span></a>
+          <p>
+            <span class="glyphicon glyphicon-wrench"></span> Tool: C/C++
+            <br>
+            &emsp;
+
+          </p>
+        </div>
+      </div>
+      <div class="project-category">
+        <h1>Hardware Engineering Project</h1>
+        <div class="project">
+          <h2>CPU Architecture in Verilog</h2>
+          <a><span class="glyphicon glyphicon-paperclip"></span></a>
+          <p>
+            <span class="glyphicon glyphicon-wrench"></span> Tool: Verilog, ModelSim
+            <br>
+
+
+          </p>
+        </div>
+        <div class="project">
+          <h2>Virtual Machine Control System</h2>
+          <a><span class="glyphicon glyphicon-paperclip"></span></a>
+          <p>
+            <span class="glyphicon glyphicon-wrench"></span> Tool: C, MinnowBoard MAX
+            <br>
+
+
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</div>

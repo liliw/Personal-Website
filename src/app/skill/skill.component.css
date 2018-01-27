@@ -1,0 +1,197 @@
+#skill-page {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  background-color: #fffaf4;
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+h1 {
+  font-family:'Julius Sans One', sans-serif;
+  margin-top: 15vh;
+  text-align: center;
+}
+
+.card {
+  height: 70vh;
+  width: 20%;
+  position: relative;
+  border-radius: 10px;
+  margin-top: 15vh;
+  margin-left: 10vh;
+  float: left;
+  display: table;
+  background: #1f4c79;
+  position: relative;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, .5);
+}
+
+h2.title {
+  text-align: center;
+  padding-top: 5px;
+  font-size: 36px;
+  font-family: 'Julius Sans One', sans-serif;
+  color: white;
+}
+
+h2.item {
+  color: white;
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  padding-left: 15px;
+}
+
+table.item-table {
+  height: 80%;
+  table-layout: fixed;
+  width: 100%;
+  position: absolute;
+}
+
+.bar {
+  background:#222;
+  height: 5px;
+  border-radius:3px;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-top:1px solid #111;
+  border-right:1px solid #333;
+  border-bottom:1px solid #333;
+}
+
+span {
+  height:5px;
+  border-radius:3px;
+  margin-left:1px;
+  background:#f4dbaa;
+  position:absolute;
+  box-shadow:0px 0px 10px 1px rgba(0,198,255,0.4);
+}
+
+@keyframes html {
+  0%  { width:0px;}
+  100%{ width:85%;}
+}
+
+@keyframes CSS {
+  0%  { width:0px;}
+  100%{ width:80%;}
+}
+
+@keyframes C {
+  0%  { width:0px;}
+  100%{ width:80%;}
+}
+
+@keyframes SQL {
+  0%  { width:0px;}
+  100%{ width:80%;}
+}
+
+@keyframes Verilog {
+  0%  { width:0px;}
+  100%{ width:70%;}
+}
+
+.html {
+  width:85%;
+  animation:html 2s ease-out;
+}
+
+.CSS {
+  width:80%;
+  animation:CSS 2s ease-out;
+}
+
+.C {
+  width:80%;
+  animation:C 2s ease-out;
+}
+
+.SQL {
+  width:80%;
+  animation:SQL 2s ease-out;
+}
+
+.Verilog {
+  width:70%;
+  animation:Verilog 2s ease-out;
+}
+
+@keyframes Python {
+  0%  { width:0px;}
+  100%{ width:85%;}
+}
+
+@keyframes R {
+  0%  { width:0px;}
+  100%{ width:80%;}
+}
+
+@keyframes AngularJS {
+  0%  { width:0px;}
+  100%{ width:85%;}
+}
+
+@keyframes PHP {
+  0%  { width:0px;}
+  100%{ width:80%;}
+}
+
+.Python {
+  width:85%;
+  animation:Python 2s ease-out;
+}
+
+.R {
+  width:80%;
+  animation:R 2s ease-out;
+}
+
+.AngularJS {
+  width:85%;
+  animation:AngularJS 2s ease-out;
+}
+
+.PHP {
+  width:80%;
+  animation:PHP 2s ease-out;
+}
+
+@keyframes Mandarin {
+  0%  { width:0px;}
+  100%{ width:92%;}
+}
+
+@keyframes English {
+  0%  { width:0px;}
+  100%{ width:80%;}
+}
+
+.Mandarin {
+  width:92%;
+  animation:Mandarin 2s ease-out;
+}
+
+.English {
+  width:80%;
+  animation:English 2s ease-out;
+}
+
+a span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  box-sizing: border-box;
+}

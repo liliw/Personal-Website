@@ -1,0 +1,48 @@
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+#project-page {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  background-color: #fffaf4;
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+.category {
+  font-family:'Julius Sans One', sans-serif;
+  margin-top: 5vh;
+  text-align: center;
+
+  vertical-align: middle;
+}
+
+#left-seg {
+  height: 100vh;
+  background: #e2eff7;
+  display: table;
+  margin: 0px;
+}
+
+.project-category {
+  position: relative;
+  margin-top: 5vh;;
+}
+
+.project {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 120%;
+  line-height: 1.7em;
+}
+
+#t1 {
+    -moz-tab-size: 4; /* Code for Firefox */
+    -o-tab-size: 4; /* Code for Opera 10.6-12.1 */
+    tab-size: 4;
+}
+
+.matrixScatterplot {
+  width: 50%;
+}

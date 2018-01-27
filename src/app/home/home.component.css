@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
+
+#sec1 {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  background-color: #c9dbba;
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+
+#sec2 {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  background-color: #dcdba8;
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+
+#sec3 {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  background-color: #f4bfd1;
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-family:'Julius Sans One', sans-serif;
+  margin: 0px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}

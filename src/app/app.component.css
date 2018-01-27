@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+
+
+.container-fluid {
+  padding: 0px;
+  background-color: #fffaf4;
+}
+
 .watch-face {
   height: 125px;
   width: 125px;
@@ -124,7 +133,6 @@
   margin:-62.5px;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
 h1 {
   font-family: 'Julius Sans One', sans-serif;
 }
